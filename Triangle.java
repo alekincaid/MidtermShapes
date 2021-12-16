@@ -30,6 +30,16 @@ public class Triangle
         isVisible = false;
     }
     
+    // triangle with parameters
+    public Triangle(int xpos, int ypos, int xsiz, int ysiz, Color col)
+    {
+        xPosition = xpos; 
+        yPosition = ypos; 
+        height = xsiz; 
+        width = ysiz; 
+        color = col; 
+    }
+    
     /**
      * Make this triangle visible. If it was already visible, do nothing.
      */
